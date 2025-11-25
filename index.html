@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sunny Bites Restaurant</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #fff7ef;
+            margin: 0;
+        }
+        header {
+            background-color: #ffb84d;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            background: #ffe0b3;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: #663300;
+            font-weight: bold;
+        }
+        .section {
+            padding: 20px;
+        }
+        .menu-item {
+            background: white;
+            width: 250px;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            display: inline-block;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        form input, form button {
+            padding: 8px;
+            margin: 5px;
+            width: 200px;
+        }
+        button {
+            background-color: #ff9900;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        footer {
+            background: #ffb84d;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sunny Bites Restaurant</h1>
+</header>
+
+<nav>
+    <a href="#menu">Menu</a>
+    <a href="#reserve">Reservation</a>
+    <a href="#reviews">Reviews</a>
+</nav>
+
+<div class="section" id="menu">
+    <h2>Our Menu</h2>
+
+    <div class="menu-item">
+        <img src="https://agent-images.githubusercontent.com/image/9d60e0fa-679c-4bd8-b600-df83fa3d2eb5" alt="Pizza">
+        <h3>Pizza</h3>
+        <p>₹199</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="https://agent-images.githubusercontent.com/image/b6bd652b-ccef-4e6e-a313-f7919cdf4a47" alt="Pasta">
+        <h3>Pasta</h3>
+        <p>₹149</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="https://agent-images.githubusercontent.com/image/2055965c-1c76-442f-bc9a-9f84c2dddf22" alt="Burger">
+        <h3>Burger</h3>
+        <p>₹99</p>
+    </div>
+</div>
+
+<div class="section" id="reserve">
+    <h2>Online Reservation</h2>
+    <form>
+        <input type="text" placeholder="Your Name"><br>
+        <input type="date"><br>
+        <input type="time"><br>
+        <button>Reserve Table</button>
+    </form>
+</div>
+
+<div class="section" id="reviews">
+    <h2>Customer Reviews</h2>
+    <p>"Amazing taste! Will visit again." – Rahul</p>
+    <p>"Lovely ambiance and great staff." – Meera</p>
+</div>
+
+<footer>
+    © 2025 Sunny Bites Restaurant
+</footer>
+
+</body>
+</html>
